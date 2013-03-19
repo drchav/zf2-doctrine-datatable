@@ -157,7 +157,6 @@ class ProductDataTable extends DataTable
 
 ## Stock/src/Stock/Controller/ProductController.php
 
-Aqui será demonstrado como fica 
 ```php
 <?php
 namespace Stock\Controller;
