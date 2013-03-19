@@ -196,6 +196,7 @@ class ProductController extends AbstractActionController
     // Muito código depois
     
 }
+```
 
 ## Stock/view/stock/index.phtml
 
@@ -290,6 +291,8 @@ class ProductController extends AbstractActionController
         }
     }
 ```
+
+## Stock/view/stock/list.phtml
 
 ```html
 <h1>Produtos</h1>
