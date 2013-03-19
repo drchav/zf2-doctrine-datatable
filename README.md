@@ -199,7 +199,7 @@ class ProductController extends AbstractActionController
 
 ## Stock/view/stock/index.phtml
 
-```
+```php
 <h1>Produtos</h1>
 
 <div class="container-fluid">
@@ -289,7 +289,7 @@ class ProductController extends AbstractActionController
     }
 ```
 
-```
+```php
 <h1>Produtos</h1>
 
 <div class="container-fluid">
