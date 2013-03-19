@@ -199,7 +199,7 @@ class ProductController extends AbstractActionController
 
 ## Stock/view/stock/index.phtml
 
-```php
+```html
 <h1>Produtos</h1>
 
 <div class="container-fluid">
@@ -233,6 +233,8 @@ class ProductController extends AbstractActionController
 	ResultSet.paginate(URL);
 </script>
 ```
+
+## Listagem personalizada
 
 Na listagem acima, todos os ítens desta entidade estão sendo listados visto que são poucos, porém, quando uma entidade possuir muitos atributos, obviamente que você terá de escolher quais serão listados, desta forma, a variável $configuration é utilizada onde, ela representa as colunas que a listagem específica irá exibir.
 
@@ -289,7 +291,7 @@ class ProductController extends AbstractActionController
     }
 ```
 
-```php
+```html
 <h1>Produtos</h1>
 
 <div class="container-fluid">
