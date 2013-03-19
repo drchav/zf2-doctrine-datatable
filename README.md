@@ -15,9 +15,9 @@ A configuração da máquina utilizada para realização deste tutorial foi:
 
 ## Pré-requesito
 
-Este tutorial necessita que você faça e entenda este (tutorial)[https://github.com/thiagopelizoni/zf2-doctrine] pois, este que agora você está lendo é continuação para demonstração de algo específico que, no caso é o uso do (DataTables)[http://www.datatables.net/] para paginação, ordenação e busca de dados.
+Este tutorial necessita que você faça e entenda este [tutorial](https://github.com/thiagopelizoni/zf2-doctrine) pois, este que agora você está lendo é continuação para demonstração de algo específico que, no caso é o uso do DataTables para paginação, ordenação e busca de dados.
 
-Existe a necesidade de você efetuar o download do plugin (DataTables)[http://www.datatables.net/] colocando dentro de *public/js* bem como, fazendo um "prepend" deste arquivo em no layout/view de sua aplicação. O arquivo *ResultSet.js* que encontra-se neste projeto consiste em uma biblioteca customizada para o uso do DataTables facilitando a obtenção dos dados.
+Existe a necesidade de você efetuar o download do plugin DataTables colocando dentro de *public/js* bem como, fazendo um "prepend" deste arquivo em no layout/view de sua aplicação. O arquivo *ResultSet.js* que encontra-se neste projeto consiste em uma biblioteca customizada para o uso do DataTables facilitando a obtenção dos dados.
 
 ```
 <?php echo $this->headScript()->prependFile($this->basePath() . '/js/ResultSet.js'); ?>
