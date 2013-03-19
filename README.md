@@ -200,11 +200,7 @@ class ProductController extends AbstractActionController
 ## Stock/view/stock/index.phtml
 
 ```
-<?php
-$title = 'Produtos';
-$this->headTitle($title);
-?>
-<h1><?php echo $this->escapeHtml($title); ?></h1>
+<h1>Produtos</h1>
 
 <div class="container-fluid">
 	<div class="row-fluid">
@@ -293,11 +289,8 @@ class ProductController extends AbstractActionController
     }
 ```
 
-```<?php
-$title = 'Produtos';
-$this->headTitle($title);
-?>
-<h1><?php echo $this->escapeHtml($title); ?></h1>
+```
+<h1>Produtos</h1>
 
 <div class="container-fluid">
 	<div class="row-fluid">
