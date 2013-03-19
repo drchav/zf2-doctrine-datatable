@@ -22,6 +22,7 @@ Existe a necesidade de você efetuar o download do plugin DataTables colocando d
 ```
 <?php echo $this->headScript()->prependFile($this->basePath() . '/js/ResultSet.js'); ?>
 <?php echo $this->headScript()->prependFile($this->basePath() . '/js/jquery.dataTables.js'); ?>
+```
 
 ## Preparação do ambiente
 
