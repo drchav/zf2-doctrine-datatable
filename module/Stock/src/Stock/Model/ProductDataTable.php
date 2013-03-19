@@ -30,7 +30,7 @@ class ProductDataTable extends DataTable
 	    /**
 	     * Irá montar os dados que serão exibidos no DataTable
 	     *
-	     * Neste tutoria, a sequencia da listagem está sendo: 'id', 'name', 'description'.
+	     * Neste tutorial, a sequencia da listagem está sendo: 'id', 'name', 'description'.
 	     * Desta forma, o array que será atribuido a variável DataTable::aaData deve estar
 	     * na mesma sequencia.
 	     */ 
