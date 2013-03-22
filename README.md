@@ -31,7 +31,7 @@ Existe a necesidade de você efetuar o download do plugin DataTables colocando d
 Este tutorial assume que o local deste projeto será no diretório **/var/www**.
 ```
 cd /var/www
-git clone git@github.com:thiagopelizoni/zf2-doctrine.git zf2-doctrine-datatable
+sudo git clone git@github.com:thiagopelizoni/zf2-doctrine.git zf2-doctrine-datatable
 ```
 
 ## Instalando dependências
